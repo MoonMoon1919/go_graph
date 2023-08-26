@@ -226,7 +226,6 @@ func main() {
 		fmt.Println(err.Error())
 	}
 
-	// Sort (which also runs right now...)
 	wf := g.CompileToExecutable()
 	wf.run()
 }
